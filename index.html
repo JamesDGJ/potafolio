@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#acerca">Acerca de mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección de Inicio -->
+  <section id="inicio" class="bg-light py-5 text-center">
+    <div class="container">
+      <img src="assets/avatar.jpg" alt="Mi foto" class="rounded-circle mb-3" width="150">
+      <h1 class="display-4">Hola, soy [Tu Nombre]</h1>
+      <p class="lead">Desarrollador/a Java con experiencia en [tus habilidades].</p>
+      <a href="#contacto" class="btn btn-dark btn-lg">Contáctame</a>
+    </div>
+  </section>
+
+  <!-- Sección de Portafolio -->
+  <section id="portafolio" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Portafolio</h2>
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="assets/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+            <div class="card-body">
+              <h3 class="card-title">Plataforma de E-commerce</h3>
+              <p class="card-text"><strong>Rol:</strong> Desarrollador frontend y backend.</p>
+              <p class="card-text"><strong>Tecnologías:</strong> React, Node.js, MongoDB.</p>
+              <p class="card-text"><strong>Desafíos:</strong> Optimización del tiempo de carga.</p>
+              <a href="#" class="btn btn-dark">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="assets/proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+            <div class="card-body">
+              <h3 class="card-title">Aplicación de Gestión de Tareas</h3>
+              <p class="card-text"><strong>Rol:</strong> Desarrollador full-stack.</p>
+              <p class="card-text"><strong>Tecnologías:</strong> Java, Spring Boot, MySQL.</p>
+              <p class="card-text"><strong>Desafíos:</strong> Integración con APIs externas.</p>
+              <a href="#" class="btn btn-dark">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Acerca de Mí -->
+  <section id="acerca" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Acerca de Mí</h2>
+      <p class="text-center">Soy un/a desarrollador/a apasionado/a por la tecnología y la resolución de problemas. Mi experiencia incluye [breve descripción de tu experiencia].</p>
+    </div>
+  </section>
+
+  <!-- Sección de CV -->
+  <section id="cv" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">CV</h2>
+      <p class="text-center">Aquí puedes ver un resumen de mi experiencia y habilidades:</p>
+      <div class="text-center">
+        <a href="cv.pdf" class="btn btn-dark btn-lg">Descargar CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Blog -->
+  <section id="blog" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Blog</h2>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Reflexión de mi camino como desarrollador/a Java</h3>
+          <p class="card-text">En esta entrada, reflexiono sobre mi crecimiento profesional, mis logros y mis metas futuras.</p>
+          <a href="#" class="btn btn-dark">Leer más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer id="contacto" class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <h2>Contacto</h2>
+      <p>Email: [tuemail@example.com]</p>
+      <p>LinkedIn: <a href="[tu enlace de LinkedIn]" class="text-white">Mi perfil</a></p>
+      <p>GitHub: <a href="[tu enlace de GitHub]" class="text-white">Mis proyectos</a></p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Script personalizado -->
+  <script src="script.js"></script>
+</body>
+</html>
